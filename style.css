@@ -11,15 +11,52 @@ body {
 }
 body > div {
   background-color: #999;
+  white-space: nowrap;
 }
 .one {
   text-align: center;
 }
 .two {
-  width: 200px;
+  width: 400px;
   margin: 0 auto;
 }
 .three {
   display: table;
   margin: 0 auto;
+}
+.four {
+  text-align: center;
+}
+.four > div {
+  display: inline-block;
+}
+.five {
+  position: relative;
+  height: 60px;
+}
+.five > div {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px /** 负的一半 */;
+}
+.six {
+  position: relative;
+  height: 60px;
+}
+.six > div {
+  position: absolute;
+  width: 400px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.seven {
+  position: relative;
+  height: 60px;
+}
+.seven > div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
