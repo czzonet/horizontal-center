@@ -1,5 +1,7 @@
 # horizontal-center 水平居中的多种 css 实现
 
+![](./example.png)
+
 ## 概述
 
 水平居中是非常基础的布局，除了统一用 flex 布局，还有很多可以方便实现。
