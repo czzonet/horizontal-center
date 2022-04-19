@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+}
+body > div {
+  background-color: #999;
+}
+.one {
+  text-align: center;
+}
+.two {
+  width: 200px;
+  margin: 0 auto;
+}
+.three {
+  display: table;
+  margin: 0 auto;
+}
